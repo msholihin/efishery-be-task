@@ -15,7 +15,7 @@ cd <projects_dir>
 docker-compose up --build -d
 ```
 
-### Service
+### Service:
 **Auth App**
 ```
 http://localhost:9000
