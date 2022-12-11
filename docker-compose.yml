@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  serv-node-1:
+    build:
+      context: .
+      dockerfile: go-auth-app/Dockerfile
+    ports:
+      - 9000:9000
+  serv-node-2:
+    build:
+      context: .
+      dockerfile: python-fetch-app/Dockerfile
+    ports:
+      - 5000:5000
